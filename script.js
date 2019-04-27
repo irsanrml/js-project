@@ -121,3 +121,34 @@ console.log(Boolean(y)); // false
 var z = "NaN";
 console.log(Boolean(z)); // true
 
+/** 
+//Debugging Tools 1 (Console)
+var x = 0;
+console.log(Boolean(x));
+
+//Debugging Tools 2 (Alert)
+var y = "";
+alert(Boolean(y));
+
+//Debugging Tools 3 (Prompt)
+prompt("What is your name");
+*/
+
+//Switch Condition
+var job = 'Engineer' //Apabila variable job di isi Engineer maka muncul Irsan adalah Engineer, apabila di isi Driver/Police maka, muncul Irsan bukan driver/polisi selain 3 variable itu maka muncul Not at All
+
+switch (job) {
+	case 'Engineer':
+		console.log('Irsan adalah Engineer');
+		break;
+	case 'Driver':
+		console.log('Irsan bukan driver');
+		break;
+	case 'Police':
+		console.log('Irsan bukan polisi');
+		break;
+	default:
+		console.log('Not at all');
+}
+
+job = prompt("Apa profesi Irsan");
