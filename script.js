@@ -4,7 +4,7 @@ console.log("Hello, world!!");
 document.getElementById('heading').innerHTML = "Hello, JS!!"
 
 //Membuat variable Nama
-var name = "Irsan";
+var name = "Irsn";
 console.log(name);
 
 //Membuat variable LastName
